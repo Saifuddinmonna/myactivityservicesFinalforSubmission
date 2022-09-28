@@ -20,28 +20,36 @@ function App() {
 					<CartBody key={cart.id} cart={cart}></CartBody>
 				))}
 			</div>
-			<div className="border warning p-2 m-2 rounded-2 shadow">
+			<div className="border warning p-3 m-2 rounded-2 shadow">
 				<div className="d-flex align-items-center  align-content-center text-center justify-content-center  p-2 ">
 					<img
 						className="img-fluid w-25"
 						src="/images/profile.png"
 						alt=""
 					/>
-					<div>
-						<h5> Saifuddin Ahammed </h5>
+					<div className="m-2">
+						<p className="fw-bolder space-top1">
+							{" "}
+							Saifuddin Ahammed{" "}
+						</p>
 						<p>Mymensingh,Bangladesh</p>
 					</div>
 				</div>
-				<div>
-					<div>
-						{" "}
-						<p></p>
+				<div className="d-flex ">
+					<div className=" bg-light rounded-circle p-2 m-3 border text-center">
+						<p className="">
+							70kg <br /> Weight
+						</p>
 					</div>
-					<div>
-						<p></p>
+					<div className=" bg-light rounded-circle p-2 m-3 border text-center">
+						<p>
+							5.5 <br /> Height
+						</p>
 					</div>
-					<div>
-						<p></p>
+					<div className=" bg-light rounded-circle p-2 m-3 border text-center">
+						<p>
+							30yrs <br /> Age
+						</p>
 					</div>
 				</div>
 
@@ -66,16 +74,18 @@ function App() {
 					</div>
 				</div>
 
-				<div className="m-2 p-2">
+				<div className="m-2 p-2 ">
 					<h5>Exerxise Details</h5>
-					<div className="bg-light p-3 m-2">
+					<div className="bg-light p-3 m-2 d-flex justify-content-around">
 						<h5>Add a break </h5>
 						<p>00000</p>
 					</div>
-					<div className="bg-light p-3 m-2 rounded-3 border-info">
+					<div className="bg-light p-3 m-2 rounded-3 border-info d-flex justify-content-around">
 						{" "}
-						<h5 className="bg-light">Exercise Details</h5>
-						<p>00000</p>
+						<h5 className="bg-light d-inline-block">
+							Exercise Details
+						</h5>
+						<p className="d-inline-block">00000</p>
 					</div>
 				</div>
 			</div>
