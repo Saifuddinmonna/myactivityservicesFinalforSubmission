@@ -20,11 +20,15 @@ function App() {
 					<CartBody key={cart.id} cart={cart}></CartBody>
 				))}
 			</div>
-			<div className="border warning p-2 m-2 rounded-2 shadow ">
-				<div>
-					<img src="" alt="" />
+			<div className="border warning p-2 m-2 rounded-2 shadow">
+				<div className="d-flex align-items-center  align-content-center text-center justify-content-center  p-2 ">
+					<img
+						className="img-fluid w-25"
+						src="/images/profile.png"
+						alt=""
+					/>
 					<div>
-						<h5> Saifuddin Ahammed Munna</h5>
+						<h5> Saifuddin Ahammed </h5>
 						<p>Mymensingh,Bangladesh</p>
 					</div>
 				</div>
@@ -42,7 +46,7 @@ function App() {
 				</div>
 
 				<div className="m-2 p-2 border border-light  rounded-3">
-					<p className=" text-bolder ">Add A Break </p>
+					<p className=" text-bolder fw-bolder">Add A Break </p>
 					<div className="m-2 p-2">
 						<span className="rounded-circle bg-light border m-2 p-1">
 							10s
